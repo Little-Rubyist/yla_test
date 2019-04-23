@@ -2,5 +2,8 @@ require "yla_test/version"
 
 module YlaTest
   class Error < StandardError; end
-  # Your code goes here...
+  def self.greet
+    'hello, world!'
+  end
+
 end
