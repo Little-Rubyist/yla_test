@@ -3,7 +3,7 @@ RSpec.describe YlaTest do
     expect(YlaTest::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "greet test" do
+    expect(YlaTest.greet).to eq("Hello, World!")
   end
 end
